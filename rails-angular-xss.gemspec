@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^spec/})
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'rails', '>= 5.0.0', '< 5.1'
+  s.add_runtime_dependency 'rails', '>= 5.0.0'
 end
